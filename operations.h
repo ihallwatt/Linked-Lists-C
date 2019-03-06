@@ -35,7 +35,7 @@ int loadData(char inf[], product **l);
 int saveData(char outf[], product *l);
 
 // sell product product of quantity q
-float purchase(product *l, char product[], float q);
+float purchase(product *l, char name[], float q);
 
 // check out price of product p from list l
 void check_price(product *l, char p[]);
